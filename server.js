@@ -54,7 +54,7 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/newsletter', newsletterRoutes);
 app.use('/api/customer-orders', customerOrderRoutes);
 
-mongoose.connect('mongodb://localhost:27017/E-Dawo', {
+mongoose.connect('mongodb+srv://xasand519:5Yc2VlhZ6n9iVV7b@cluster0.6cladvs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
